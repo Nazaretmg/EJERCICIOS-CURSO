@@ -1,0 +1,92 @@
+ /*PLANTILLA REAL*/
+body{
+    margin: 0;
+    padding: 0;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4c2c2;
+}
+
+div.contenedor{
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #bbe0eb;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 20);
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    display: block;
+    margin: 5px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: rgb(3, 74, 102);
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+}
+
+button:hover{
+    background-color: #4fadad;
+}
+
+@media(max-width: 850px){
+    button{
+        width: 80%;
+    }
+}
+ /*PLANTILLA INICIAL QUE YO HICE*/
+/*.contenedor{
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #80ee7c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+button{
+    width: 30%;
+    background-color: rgb(19, 102, 3);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid white;
+    display: flex;
+}
+
+button:hover{
+    background-color: rgb(123, 183, 187);
+}
+
+
+button a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+@media(max-width: 850px){
+    .contenedor button{
+        width: 80%;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1em;
+        margin-left: 10%;
+    }
+}
+*/
